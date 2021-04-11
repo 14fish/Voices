@@ -1,0 +1,40 @@
+.link {
+  transform: scale(0.8);
+}
+
+#voices-div {
+  padding: 0;
+  overflow: hidden;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link:not(:last-child) {
+  margin-bottom: 10px !important;
+}
+
+.audio-link {
+  border-radius: 30px;
+  padding: 2px;
+  margin-right: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  width: 100%;
+}
+
+.download-link {
+  border-radius: 30px;
+  padding: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  color: blue;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.download-link:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
